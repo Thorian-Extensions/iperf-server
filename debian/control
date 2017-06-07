@@ -1,0 +1,14 @@
+Source: iperf-server
+Section: misc
+Priority: optional
+Maintainer: Dylan Scott Grafmyre, <thorsummoner0@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+
+Package: iperf-server
+Architecture: all
+Section: misc
+Depends: systemd (>= 204)
+Description: iperf server
+ Run Iperf as a system service on systemd

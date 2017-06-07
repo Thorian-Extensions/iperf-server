@@ -1,0 +1,10 @@
+Package: iperf-server
+Version: 1.0
+Architecture: all
+Maintainer: Dylan Scott Grafmyre, <thorsummoner0@gmail.com>
+Installed-Size: 44
+Depends: systemd (>= 204)
+Section: misc
+Priority: optional
+Description: iperf server
+ Run Iperf as a system service on systemd
